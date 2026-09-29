@@ -10,7 +10,7 @@ let studentsCollection;
 
 // Connect to MongoDB and start the server
 client.connect().then(() => {
-    studentsCollection = client.db('emea').collection('students');
+    studentsCollection = client.db('arjun').collection('students');
     app.listen(3000, () => console.log('Server running on http://localhost:3000'));
 });
 
